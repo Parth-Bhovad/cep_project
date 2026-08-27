@@ -1,0 +1,313 @@
+[
+  {
+    "id": 1,
+    "slug": "aadhaar",
+    "title": "Aadhaar Services",
+    "category": "Identity",
+    "icon": "🆔",
+    "shortDescription": "Unique identity number for all residents of India",
+    "overview": "Aadhaar is a 12-digit unique identity number issued by the Unique Identification Authority of India (UIDAI) to all residents of India. It is based on biometric and demographic data.",
+    "purpose": "Aadhaar serves as a unique identification document and is used for various government services, financial transactions, and accessing digital services online.",
+    "eligibility": "Any resident of India (including minors) can apply for Aadhaar. You need to be physically present at the Aadhaar enrollment center.",
+    "requiredDocuments": [
+      "Proof of identity (Passport, Driver's License, PAN card, etc.)",
+      "Proof of address (Electricity bill, Water bill, Rental agreement, etc.)",
+      "Proof of date of birth (Birth certificate, School certificate, etc.)",
+      "Recent photograph (4x6 cm)"
+    ],
+    "stepByStepGuide": [
+      "Visit the nearest Aadhaar Enrollment Center",
+      "Fill out the enrollment form with personal details",
+      "Submit required documents",
+      "Get your photograph and fingerprints scanned",
+      "Receive an enrollment slip with enrollment ID",
+      "Wait for Aadhaar to be generated (usually 60-90 days)",
+      "Download your Aadhaar from the UIDAI website using enrollment ID or mobile number"
+    ],
+    "tips": [
+      "Ensure all details are correct while filling the form",
+      "Keep your enrollment slip safe as it contains your enrollment ID",
+      "You can track your Aadhaar status on UIDAI website",
+      "Update your Aadhaar details if any changes occur",
+      "Aadhaar is free to obtain"
+    ],
+    "commonMistakes": [
+      "Providing incorrect personal information",
+      "Not keeping the enrollment slip safely",
+      "Not updating Aadhaar when personal details change",
+      "Using Aadhaar in unauthorized ways",
+      "Sharing Aadhaar details with unknown sources"
+    ],
+    "faqs": [
+      {
+        "question": "Is Aadhaar mandatory for all citizens?",
+        "answer": "While Aadhaar is widely used, it is not absolutely mandatory for every service. However, it is required for many government and financial services."
+      },
+      {
+        "question": "Can I update my Aadhaar details?",
+        "answer": "Yes, you can update your personal details, address, and contact information in your Aadhaar at the enrollment center."
+      },
+      {
+        "question": "What if I lose my Aadhaar number?",
+        "answer": "You can retrieve your Aadhaar number from the UIDAI website using your mobile number or retrieve a duplicate copy."
+      },
+      {
+        "question": "Is Aadhaar data secure?",
+        "answer": "UIDAI follows strict security protocols. Your biometric data is stored in encrypted form and is well protected."
+      }
+    ],
+    "officialWebsite": "https://uidai.gov.in",
+    "educationalDisclaimer": "This information is for educational purposes. For official details, visit the UIDAI website."
+  },
+  {
+    "id": 2,
+    "slug": "pan-card",
+    "title": "PAN Card",
+    "category": "Tax",
+    "icon": "💳",
+    "shortDescription": "Permanent Account Number for tax identification",
+    "overview": "PAN (Permanent Account Number) is a 10-character alphanumeric identifier issued by the Indian Income Tax Department to individuals and entities who are involved in any financial transaction.",
+    "purpose": "PAN is used for income tax filing, financial transactions, opening bank accounts, and various other financial and legal activities.",
+    "eligibility": "Any resident or non-resident individual involved in financial transactions, business, or earning income is eligible to apply for PAN.",
+    "requiredDocuments": [
+      "Proof of Identity (Passport, Driving License, Voter ID, etc.)",
+      "Proof of Address (Electricity bill, Telephone bill, etc.)",
+      "Proof of Date of Birth (Birth certificate, School certificate, etc.)",
+      "Recent passport-sized photograph"
+    ],
+    "stepByStepGuide": [
+      "Visit the Income Tax Department website (incometaxindiaefiling.gov.in)",
+      "Click on 'Apply for PAN' or 'Enrol first, then Apply'",
+      "Fill out the online application form with accurate details",
+      "Upload scanned copies of required documents",
+      "Pay the application fee (usually free for first time applicants)",
+      "Submit the form and note your reference number",
+      "Receive your PAN via email within 7-10 days",
+      "You can download your PAN certificate from the website"
+    ],
+    "tips": [
+      "Apply online to get your PAN quickly",
+      "Ensure all details match your identity documents",
+      "Save your acknowledgment number for reference",
+      "PAN is valid for life",
+      "Keep a digital copy of your PAN certificate"
+    ],
+    "commonMistakes": [
+      "Entering incorrect name or date of birth",
+      "Not providing correct address proof",
+      "Uploading poor quality document scans",
+      "Not verifying email address correctly",
+      "Multiple applications for PAN"
+    ],
+    "faqs": [
+      {
+        "question": "How long does it take to get PAN?",
+        "answer": "Online PAN is usually issued within 7-10 days of application submission."
+      },
+      {
+        "question": "Can I modify my PAN details?",
+        "answer": "Yes, you can make corrections online through the Income Tax website using the correction facility."
+      },
+      {
+        "question": "What if I have lost my PAN?",
+        "answer": "You can download a duplicate PAN certificate from the Income Tax Department website using your PAN number."
+      },
+      {
+        "question": "Is PAN free to obtain?",
+        "answer": "Yes, obtaining a PAN is free. Do not pay anyone to get a PAN."
+      }
+    ],
+    "officialWebsite": "https://incometaxindiaefiling.gov.in",
+    "educationalDisclaimer": "This information is for educational purposes. For official details, visit the Income Tax Department website."
+  },
+  {
+    "id": 3,
+    "slug": "digilocker",
+    "title": "DigiLocker",
+    "category": "Digital Storage",
+    "icon": "🔐",
+    "shortDescription": "Digital storage system for important documents",
+    "overview": "DigiLocker is a cloud-based platform to store and access digital copies of important documents issued by government and private institutions.",
+    "purpose": "DigiLocker allows citizens to store, retrieve, and share digital copies of documents electronically, reducing the need for physical documents.",
+    "eligibility": "Any Indian citizen with an Aadhaar number and a valid mobile number can register for DigiLocker.",
+    "requiredDocuments": [
+      "Valid Aadhaar number",
+      "Active mobile number (10 digits)",
+      "Registered email address"
+    ],
+    "stepByStepGuide": [
+      "Visit the DigiLocker website (digilocker.gov.in)",
+      "Click on 'Sign Up' button",
+      "Enter your Aadhaar number and mobile number",
+      "Verify your OTP sent to your registered mobile number",
+      "Set your login credentials (username and password)",
+      "Verify your email address",
+      "Your DigiLocker account is created",
+      "Log in and start uploading or accessing your documents"
+    ],
+    "tips": [
+      "Keep your DigiLocker login credentials safe",
+      "Regularly backup important documents",
+      "DigiLocker documents are legally valid",
+      "You can share documents securely with others",
+      "Use your DigiLocker mobile app for easy access"
+    ],
+    "commonMistakes": [
+      "Using incorrect Aadhaar number",
+      "Not verifying OTP within the given time",
+      "Uploading low quality document scans",
+      "Sharing DigiLocker password with others",
+      "Not updating contact information"
+    ],
+    "faqs": [
+      {
+        "question": "Is DigiLocker document legally valid?",
+        "answer": "Yes, documents in DigiLocker are legally recognized as per the Indian Evidence Act and IT Act."
+      },
+      {
+        "question": "What types of documents can I store?",
+        "answer": "You can store certificates, licenses, permits, and any important documents issued by government or private institutions."
+      },
+      {
+        "question": "Can I share DigiLocker documents?",
+        "answer": "Yes, you can create a link to share specific documents securely with others."
+      },
+      {
+        "question": "Is DigiLocker free?",
+        "answer": "Yes, DigiLocker is a free service provided by the Indian government."
+      }
+    ],
+    "officialWebsite": "https://digilocker.gov.in",
+    "educationalDisclaimer": "This information is for educational purposes. For official details, visit the DigiLocker website."
+  },
+  {
+    "id": 4,
+    "slug": "passport",
+    "title": "Passport",
+    "category": "Travel",
+    "icon": "✈️",
+    "shortDescription": "Travel document for international journeys",
+    "overview": "A passport is an official travel document issued by the government that certifies the identity and nationality of its holder for the purpose of international travel.",
+    "purpose": "Passports are required for international travel, visa applications, and proof of citizenship.",
+    "eligibility": "Indian citizens of any age can apply for a passport. Minors require parental consent.",
+    "requiredDocuments": [
+      "Birth Certificate or PAN Card",
+      "Address Proof (Aadhaar, Voter ID, Electricity bill, etc.)",
+      "Passport-sized photographs (4x6 cm, color)",
+      "Police Clearance Certificate (for specific cases)",
+      "Affidavit (in case of name discrepancy)"
+    ],
+    "stepByStepGuide": [
+      "Visit Passport Seva website (passportindia.gov.in)",
+      "Register/Login to create an account",
+      "Fill out the online application form",
+      "Upload supporting documents",
+      "Schedule an appointment at your nearest Passport Office",
+      "Visit the Passport Office on scheduled date",
+      "Submit original documents and biometric data",
+      "Pay the passport fee",
+      "Receive passport within 10-15 working days (or 48-72 hours for Tatkal service)"
+    ],
+    "tips": [
+      "Apply online to avoid long queues",
+      "Use Tatkal service for urgent passport needs (with additional fee)",
+      "Ensure all document details match",
+      "Carry originals and copies of all documents",
+      "Arrive early on your appointment date",
+      "Adult passports are valid for 10 years, child passports for 5 years"
+    ],
+    "commonMistakes": [
+      "Incorrect personal information in application",
+      "Unclear or mismatched photographs",
+      "Incomplete address proof",
+      "Not bringing all required original documents",
+      "Applying from wrong Passport Office jurisdiction"
+    ],
+    "faqs": [
+      {
+        "question": "How long is a passport valid?",
+        "answer": "Adult passports are valid for 10 years. Child passports (below 18) are valid for 5 years."
+      },
+      {
+        "question": "What is Tatkal Passport service?",
+        "answer": "Tatkal is an expedited service for urgent passport applications. It's processed in 48-72 hours but charges an additional fee."
+      },
+      {
+        "question": "Can I renew my passport online?",
+        "answer": "You can apply for renewal online through the Passport Seva website, but personal appearance at Passport Office is required."
+      },
+      {
+        "question": "What is the passport fee?",
+        "answer": "Normal service passport fee is ₹1500 for adults and ₹1000 for children. Tatkal service charges additional fees."
+      }
+    ],
+    "officialWebsite": "https://passportindia.gov.in",
+    "educationalDisclaimer": "This information is for educational purposes. For official details, visit the Passport India website."
+  },
+  {
+    "id": 5,
+    "slug": "driving-licence",
+    "title": "Driving Licence",
+    "category": "Transport",
+    "icon": "🚗",
+    "shortDescription": "Legal authorization to operate motor vehicles",
+    "overview": "A Driving Licence is an official document issued by the Road Transport Authority that authorizes a person to operate motor vehicles on public roads.",
+    "purpose": "Driving Licence is required by law to operate any motor vehicle on public roads. It proves that the holder is qualified to drive.",
+    "eligibility": "Applicants must be at least 18 years old (16 for learner's license) and pass the driving test. Indian citizen or permanent resident.",
+    "requiredDocuments": [
+      "Proof of Age (Birth Certificate, PAN Card, Passport, etc.)",
+      "Proof of Address (Aadhaar, Voter ID, Electricity bill, etc.)",
+      "Proof of Permanent Residence (Aadhaar, Lease agreement, etc.)",
+      "Passport-sized photographs (4x6 cm)",
+      "Medical certificate for certain categories",
+      "Form 1A (Application for Fresh License)"
+    ],
+    "stepByStepGuide": [
+      "Visit your nearest Regional Transport Office (RTO) website",
+      "Register/Login and apply for Learner's License first",
+      "Pass the learner's license test (written)",
+      "Receive Learner's License valid for 6 months",
+      "Complete driving training",
+      "Apply for Driving Licence after 30 days with learning license",
+      "Appear for practical driving test at RTO",
+      "Receive your Driving Licence upon passing test",
+      "Download Driving Licence from RTO portal"
+    ],
+    "tips": [
+      "Always carry your Driving Licence while driving",
+      "Keep copies of your Driving Licence handy",
+      "Renew your license before it expires",
+      "Report any accidents or violations to RTO",
+      "Take driving training from authorized driving schools",
+      "Follow traffic rules to maintain clean driving record"
+    ],
+    "commonMistakes": [
+      "Driving without learner's license",
+      "Skipping the 30-day period between learner's and driving license",
+      "Failing to appear for practical test",
+      "Not updating address in driving license",
+      "Driving with expired license",
+      "Providing false information in application"
+    ],
+    "faqs": [
+      {
+        "question": "How long is a Driving Licence valid?",
+        "answer": "A Driving Licence is valid for 5 years and can be renewed for another 5-year period or longer depending on age."
+      },
+      {
+        "question": "Can I apply for Driving Licence online?",
+        "answer": "Yes, you can apply online through the RTO website of your state, but you must visit RTO office for test and documents verification."
+      },
+      {
+        "question": "What is the fee for Driving Licence?",
+        "answer": "The fee varies by state but typically ranges from ₹200-500 for fresh application and ₹200-300 for renewal."
+      },
+      {
+        "question": "What if I lose my Driving Licence?",
+        "answer": "You can apply for a duplicate Driving Licence at your RTO by filing a report and providing required documents."
+      }
+    ],
+    "officialWebsite": "https://parivahan.gov.in",
+    "educationalDisclaimer": "This information is for educational purposes. For official details, visit your state's RTO website."
+  }
+]

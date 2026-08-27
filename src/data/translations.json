@@ -1,0 +1,830 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "faqs": "FAQs",
+      "digitalSafety": "Digital Safety",
+      "survey": "Survey",
+      "about": "About",
+      "feedback": "Feedback",
+      "contact": "Contact"
+    },
+    "common": {
+      "learnMore": "Learn More",
+      "getStarted": "Get Started",
+      "readMore": "Read More",
+      "exploreServices": "Explore Services",
+      "language": "Language",
+      "english": "English",
+      "hindi": "हिंदी",
+      "marathi": "मराठी",
+      "disclaimer": "This website is developed solely for educational and demonstration purposes. Users should always visit official Government portals for actual services.",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "search": "Search",
+      "filter": "Filter",
+      "viewOfficial": "View Official Website",
+      "relatedServices": "Related Services"
+    },
+    "home": {
+      "title": "Citizen Digital Seva Assistant",
+      "subtitle": "Empowering citizens with knowledge about Government Digital Services",
+      "description": "Learn how to use and access government digital services with ease. Get step-by-step guidance, security tips, and comprehensive information about essential government services.",
+      "heroCtaText": "Explore Services",
+      "heroCtaSecondary": "Learn Digital Safety",
+      "featuresTitle": "Why Choose Us?",
+      "features": [
+        {
+          "title": "Easy to Understand",
+          "description": "Simple, step-by-step guides that anyone can follow"
+        },
+        {
+          "title": "Multiple Languages",
+          "description": "Available in English, Hindi, and Marathi"
+        },
+        {
+          "title": "Comprehensive",
+          "description": "Covers all major government digital services"
+        },
+        {
+          "title": "Safe & Secure",
+          "description": "Learn digital safety and cyber awareness"
+        }
+      ],
+      "servicesTitle": "Government Services",
+      "servicesDescription": "Discover the top government digital services available to citizens",
+      "statsTitle": "Community Awareness",
+      "stats": [
+        {
+          "number": "5",
+          "label": "Government Services Covered"
+        },
+        {
+          "number": "1000+",
+          "label": "Citizens Surveyed"
+        },
+        {
+          "number": "3",
+          "label": "Languages Supported"
+        },
+        {
+          "number": "20+",
+          "label": "FAQ Answers"
+        }
+      ],
+      "howItWorksTitle": "How It Works",
+      "howItWorks": [
+        {
+          "step": "1",
+          "title": "Browse Services",
+          "description": "Explore the government digital services available to you"
+        },
+        {
+          "step": "2",
+          "title": "Read Guidelines",
+          "description": "Understand eligibility, documents, and step-by-step process"
+        },
+        {
+          "step": "3",
+          "title": "Visit Official Portal",
+          "description": "Follow the links to official government portals"
+        },
+        {
+          "step": "4",
+          "title": "Get Support",
+          "description": "Review FAQs and digital safety tips while applying"
+        }
+      ],
+      "communityTitle": "Community Impact",
+      "communityDescription": "Our mission is to bridge the digital divide and empower citizens with knowledge",
+      "ctaTitle": "Ready to Get Started?",
+      "ctaDescription": "Explore government digital services and improve your digital literacy",
+      "ctaButton": "Browse All Services"
+    },
+    "services": {
+      "title": "Government Digital Services",
+      "description": "Access step-by-step guides for essential government digital services",
+      "searchPlaceholder": "Search services...",
+      "noResults": "No services found matching your search"
+    },
+    "serviceDetail": {
+      "overview": "Overview",
+      "purpose": "Purpose",
+      "eligibility": "Eligibility",
+      "requiredDocuments": "Required Documents",
+      "stepByStepGuide": "Step-by-Step Guide",
+      "tips": "Helpful Tips",
+      "commonMistakes": "Common Mistakes",
+      "faqs": "Frequently Asked Questions",
+      "officialWebsite": "Visit Official Website",
+      "educationalDisclaimer": "Educational Disclaimer"
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to common questions about government digital services",
+      "noResults": "No FAQs found"
+    },
+    "digitalSafety": {
+      "title": "Digital Safety & Cyber Awareness",
+      "description": "Learn how to stay safe while using government digital services",
+      "otpSafety": {
+        "title": "OTP Safety",
+        "description": "One-Time Passwords (OTPs) are crucial for security. Never share your OTP with anyone, not even government officials. OTPs are time-limited and only valid for a few minutes."
+      },
+      "passwordSafety": {
+        "title": "Password Safety",
+        "description": "Use strong passwords with a mix of uppercase, lowercase, numbers, and special characters. Never use personal information like birth dates or phone numbers in passwords."
+      },
+      "governmentScams": {
+        "title": "Avoiding Government Scams",
+        "description": "Be aware of common scams involving fake government websites or calls asking for personal information. Legitimate government agencies never ask for passwords or sensitive data via phone or email."
+      },
+      "fakeWebsites": {
+        "title": "Recognizing Fake Websites",
+        "description": "Check the URL carefully - official websites use .gov.in domain. Look for HTTPS security, proper spelling in domain names, and official branding."
+      },
+      "officialDomains": {
+        "title": "Official Government Domains",
+        "description": "Official government websites always use .gov.in domain suffix. Be cautious of similar-looking domains. Bookmark official websites for direct access."
+      },
+      "cyberAwareness": {
+        "title": "Cyber Awareness",
+        "description": "Keep your devices updated with latest security patches. Use antivirus software. Be cautious with email attachments and links from unknown sources."
+      },
+      "safePractices": {
+        "title": "Safe Digital Practices",
+        "tips": [
+          "Use public WiFi cautiously - prefer mobile data for sensitive transactions",
+          "Log out completely after using government portals",
+          "Clear browser cache and cookies regularly",
+          "Use two-factor authentication where available",
+          "Keep security questions answers separate and secure"
+        ]
+      }
+    },
+    "survey": {
+      "title": "Survey Analysis & Insights",
+      "description": "Community feedback and awareness analysis from our survey",
+      "surveyDetails": "Survey Details",
+      "methodologyTitle": "Survey Methodology",
+      "methodologyDescription": "This survey was conducted with 1000+ citizens across various age groups to understand awareness and usage of government digital services.",
+      "findingsTitle": "Key Findings",
+      "statisticsTitle": "Statistics",
+      "statisticsDescription": "Detailed breakdown of survey responses",
+      "observationsTitle": "Observations",
+      "observationsDescription": "Key observations from the collected data",
+      "analysisTitle": "Analysis",
+      "analysisDescription": "In-depth analysis of the survey results",
+      "recommendationsTitle": "Recommendations",
+      "recommendationsDescription": "Suggestions for improving digital literacy and service adoption"
+    },
+    "about": {
+      "title": "About This Project",
+      "description": "Understanding the Citizen Digital Seva Assistant initiative",
+      "problemStatement": {
+        "title": "Problem Statement",
+        "description": "While India has developed numerous digital government services, awareness and effective utilization remain low among citizens. Many people are unaware of available services or how to use them, leading to continued reliance on physical processes and intermediaries."
+      },
+      "objectives": {
+        "title": "Objectives",
+        "list": [
+          "Raise awareness about government digital services",
+          "Provide comprehensive, easy-to-understand guidance",
+          "Promote digital literacy and confidence",
+          "Reduce barriers to accessing government services",
+          "Support citizens in multiple languages"
+        ]
+      },
+      "methodology": {
+        "title": "Methodology",
+        "description": "We conducted community surveys, analyzed citizen feedback, identified key challenges, and developed this educational website as a demonstration platform."
+      },
+      "communityInteraction": {
+        "title": "Community Interaction",
+        "description": "Engaged with citizens across different age groups and educational backgrounds to understand their concerns and information needs."
+      },
+      "observation": {
+        "title": "Observation",
+        "description": "Key insights from community engagement include language preferences, preferred information formats, and common barriers to service adoption."
+      },
+      "analysis": {
+        "title": "Analysis",
+        "description": "Data analysis revealed that simplified guidance, multi-language support, and security awareness are critical for service adoption."
+      },
+      "expectedOutcome": {
+        "title": "Expected Outcome",
+        "description": "This project demonstrates how digital literacy can be improved through accessible, user-friendly educational resources."
+      },
+      "projectFlowTitle": "Project Flow",
+      "projectFlow": [
+        "Survey & Community Research",
+        "Problem Identification",
+        "Solution Design",
+        "Website Development",
+        "Testing & Refinement",
+        "Demonstration",
+        "Feedback Collection",
+        "Analysis & Documentation"
+      ]
+    },
+    "feedback": {
+      "title": "Share Your Feedback",
+      "description": "Help us improve by sharing your thoughts and suggestions",
+      "form": {
+        "name": "Full Name",
+        "age": "Age",
+        "occupation": "Occupation",
+        "preferredLanguage": "Preferred Language",
+        "rating": "How would you rate this website?",
+        "feedback": "Your Feedback",
+        "submit": "Submit Feedback",
+        "successMessage": "Thank you for your feedback! We appreciate your time.",
+        "selectOption": "Select an option",
+        "excellent": "Excellent",
+        "good": "Good",
+        "average": "Average",
+        "needsImprovement": "Needs Improvement"
+      }
+    },
+    "contact": {
+      "title": "Contact & Information",
+      "description": "Get in touch with us or access official government resources",
+      "projectInfo": {
+        "title": "Project Information",
+        "description": "This is an educational college project (CEP) demonstrating government digital services"
+      },
+      "email": {
+        "title": "Email",
+        "value": "contact@example.com"
+      },
+      "github": {
+        "title": "GitHub",
+        "value": "github.com/project"
+      },
+      "officialResources": {
+        "title": "Official Government Resources",
+        "description": "Always use official government portals for actual services"
+      },
+      "disclaimer": "This website is developed solely for educational and demonstration purposes. Users should always visit official Government portals for actual services."
+    },
+    "footer": {
+      "quickLinks": "Quick Links",
+      "governmentResources": "Government Resources",
+      "copyright": "© 2024 Citizen Digital Seva Assistant. Educational Project.",
+      "educationalDisclaimer": "This website is developed solely for educational and demonstration purposes."
+    }
+  },
+  "hi": {
+    "nav": {
+      "home": "होम",
+      "services": "सेवाएं",
+      "faqs": "सामान्य प्रश्न",
+      "digitalSafety": "डिजिटल सुरक्षा",
+      "survey": "सर्वेक्षण",
+      "about": "परिचय",
+      "feedback": "प्रतिक्रिया",
+      "contact": "संपर्क"
+    },
+    "common": {
+      "learnMore": "और जानें",
+      "getStarted": "शुरुआत करें",
+      "readMore": "और पढ़ें",
+      "exploreServices": "सेवाओं को एक्सप्लोर करें",
+      "language": "भाषा",
+      "english": "English",
+      "hindi": "हिंदी",
+      "marathi": "मराठी",
+      "disclaimer": "यह वेबसाइट केवल शैक्षणिक और प्रदर्शन उद्देश्यों के लिए विकसित की गई है। वास्तविक सेवाओं के लिए उपयोगकर्ताओं को हमेशा आधिकारिक सरकारी पोर्टल पर जाना चाहिए।",
+      "submit": "सबमिट करें",
+      "cancel": "रद्द करें",
+      "search": "खोज",
+      "filter": "फ़िल्टर",
+      "viewOfficial": "आधिकारिक वेबसाइट देखें",
+      "relatedServices": "संबंधित सेवाएं"
+    },
+    "home": {
+      "title": "नागरिक डिजिटल सेवा सहायक",
+      "subtitle": "नागरिकों को सरकारी डिजिटल सेवाओं के बारे में जानकारी से सशक्त बनाना",
+      "description": "सरकारी डिजिटल सेवाओं का उपयोग और पहुंच कैसे प्राप्त करें सीखें। चरण-दर-चरण मार्गदर्शन, सुरक्षा सुझाव और आवश्यक सरकारी सेवाओं की व्यापक जानकारी प्राप्त करें।",
+      "heroCtaText": "सेवाओं को एक्सप्लोर करें",
+      "heroCtaSecondary": "डिजिटल सुरक्षा जानें",
+      "featuresTitle": "हमें क्यों चुनें?",
+      "features": [
+        {
+          "title": "आसानी से समझ में आने वाला",
+          "description": "सरल, चरण-दर-चरण मार्गदर्शन जिसे कोई भी अनुसरण कर सकता है"
+        },
+        {
+          "title": "कई भाषाओं में उपलब्ध",
+          "description": "अंग्रेजी, हिंदी और मराठी में उपलब्ध"
+        },
+        {
+          "title": "व्यापक",
+          "description": "सभी प्रमुख सरकारी डिजिटल सेवाओं को कवर करता है"
+        },
+        {
+          "title": "सुरक्षित",
+          "description": "डिजिटल सुरक्षा और साइबर जागरूकता जानें"
+        }
+      ],
+      "servicesTitle": "सरकारी सेवाएं",
+      "servicesDescription": "नागरिकों के लिए उपलब्ध शीर्ष सरकारी डिजिटल सेवाओं की खोज करें",
+      "statsTitle": "सामुदायिक जागरूकता",
+      "stats": [
+        {
+          "number": "5",
+          "label": "सरकारी सेवाएं शामिल"
+        },
+        {
+          "number": "1000+",
+          "label": "नागरिकों का सर्वेक्षण किया गया"
+        },
+        {
+          "number": "3",
+          "label": "समर्थित भाषाएं"
+        },
+        {
+          "number": "20+",
+          "label": "FAQ उत्तर"
+        }
+      ],
+      "howItWorksTitle": "यह कैसे काम करता है",
+      "howItWorks": [
+        {
+          "step": "1",
+          "title": "सेवाओं को ब्राउज़ करें",
+          "description": "आपके लिए उपलब्ध सरकारी डिजिटल सेवाओं की खोज करें"
+        },
+        {
+          "step": "2",
+          "title": "दिशानिर्देश पढ़ें",
+          "description": "पात्रता, दस्तावेज और चरण-दर-चरण प्रक्रिया को समझें"
+        },
+        {
+          "step": "3",
+          "title": "आधिकारिक पोर्टल पर जाएं",
+          "description": "आधिकारिक सरकारी पोर्टल के लिंक का पालन करें"
+        },
+        {
+          "step": "4",
+          "title": "सहायता प्राप्त करें",
+          "description": "आवेदन करते समय FAQ और डिजिटल सुरक्षा टिप्स की समीक्षा करें"
+        }
+      ],
+      "communityTitle": "सामुदायिक प्रभाव",
+      "communityDescription": "हमारा मिशन डिजिटल विभाजन को पाटना और नागरिकों को ज्ञान से सशक्त बनाना है",
+      "ctaTitle": "शुरुआत के लिए तैयार?",
+      "ctaDescription": "सरकारी डिजिटल सेवाओं की खोज करें और अपनी डिजिटल साक्षरता में सुधार करें",
+      "ctaButton": "सभी सेवाएं देखें"
+    },
+    "services": {
+      "title": "सरकारी डिजिटल सेवाएं",
+      "description": "आवश्यक सरकारी डिजिटल सेवाओं के लिए चरण-दर-चरण मार्गदर्शन एक्सेस करें",
+      "searchPlaceholder": "सेवाओं को खोजें...",
+      "noResults": "आपकी खोज से मेल खाने वाली कोई सेवा नहीं मिली"
+    },
+    "serviceDetail": {
+      "overview": "अवलोकन",
+      "purpose": "उद्देश्य",
+      "eligibility": "पात्रता",
+      "requiredDocuments": "आवश्यक दस्तावेज",
+      "stepByStepGuide": "चरण-दर-चरण मार्गदर्शन",
+      "tips": "मददगार सुझाव",
+      "commonMistakes": "सामान्य गलतियां",
+      "faqs": "सामान्य प्रश्न",
+      "officialWebsite": "आधिकारिक वेबसाइट पर जाएं",
+      "educationalDisclaimer": "शैक्षणिक अस्वीकरण"
+    },
+    "faqs": {
+      "title": "सामान्य प्रश्न",
+      "description": "सरकारी डिजिटल सेवाओं के बारे में सामान्य प्रश्नों के उत्तर खोजें",
+      "noResults": "कोई FAQ नहीं मिला"
+    },
+    "digitalSafety": {
+      "title": "डिजिटल सुरक्षा और साइबर जागरूकता",
+      "description": "सरकारी डिजिटल सेवाओं का उपयोग करते समय सुरक्षित रहना सीखें",
+      "otpSafety": {
+        "title": "OTP सुरक्षा",
+        "description": "वन-टाइम पासवर्ड (OTP) सुरक्षा के लिए महत्वपूर्ण हैं। अपना OTP किसी के साथ साझा न करें, यहां तक कि सरकारी अधिकारियों के साथ भी। OTPs समय-सीमित हैं और केवल कुछ मिनटों के लिए वैध हैं।"
+      },
+      "passwordSafety": {
+        "title": "पासवर्ड सुरक्षा",
+        "description": "अपरकेस, लोअरकेस, नंबर और विशेष वर्णों के मिश्रण के साथ मजबूत पासवर्ड का उपयोग करें। पासवर्ड में जन्मतिथि या फोन नंबर जैसी व्यक्तिगत जानकारी का उपयोग न करें।"
+      },
+      "governmentScams": {
+        "title": "सरकारी स्कैम से बचना",
+        "description": "नकली सरकारी वेबसाइटों या व्यक्तिगत जानकारी मांगने वाली कॉलों से जुड़े सामान्य स्कैम के बारे में जागरूक रहें। वैध सरकारी एजेंसियां कभी भी फोन या ईमेल के माध्यम से पासवर्ड या संवेदनशील डेटा नहीं मांगती।"
+      },
+      "fakeWebsites": {
+        "title": "नकली वेबसाइटों को पहचानना",
+        "description": "URL को सावधानीपूर्वक जांचें - आधिकारिक वेबसाइटें .gov.in डोमेन का उपयोग करती हैं। HTTPS सुरक्षा, डोमेन नामों में सही वर्तनी और आधिकारिक ब्रांडिंग की तलाश करें।"
+      },
+      "officialDomains": {
+        "title": "आधिकारिक सरकारी डोमेन",
+        "description": "आधिकारिक सरकारी वेबसाइटें हमेशा .gov.in डोमेन सफिक्स का उपयोग करती हैं। समान दिखने वाले डोमेन से सावधान रहें। सीधी पहुंच के लिए आधिकारिक वेबसाइटों को बुकमार्क करें।"
+      },
+      "cyberAwareness": {
+        "title": "साइबर जागरूकता",
+        "description": "अपने डिवाइस को नवीनतम सुरक्षा पैच के साथ अपडेट रखें। एंटीवायरस सॉफ्टवेयर का उपयोग करें। अज्ञात स्रोतों से ईमेल अटैचमेंट और लिंक के प्रति सावधान रहें।"
+      },
+      "safePractices": {
+        "title": "सुरक्षित डिजिटल प्रथाएं",
+        "tips": [
+          "सार्वजनिक WiFi का सावधानीपूर्वक उपयोग करें - संवेदनशील लेनदेन के लिए मोबाइल डेटा पसंद करें",
+          "सरकारी पोर्टल का उपयोग करने के बाद पूरी तरह लॉगआउट करें",
+          "ब्राउज़र कैश और कुकीज़ को नियमित रूप से साफ करें",
+          "जहां उपलब्ध हो दो-फैक्टर प्रमाणीकरण का उपयोग करें",
+          "सुरक्षा प्रश्नों के उत्तरों को अलग और सुरक्षित रखें"
+        ]
+      }
+    },
+    "survey": {
+      "title": "सर्वेक्षण विश्लेषण और अंतर्दृष्टि",
+      "description": "हमारे सर्वेक्षण से सामुदायिक प्रतिक्रिया और जागरूकता विश्लेषण",
+      "surveyDetails": "सर्वेक्षण विवरण",
+      "methodologyTitle": "सर्वेक्षण पद्धति",
+      "methodologyDescription": "यह सर्वेक्षण 1000+ नागरिकों के साथ विभिन्न आयु समूहों में सरकारी डिजिटल सेवाओं की जागरूकता और उपयोग को समझने के लिए किया गया था।",
+      "findingsTitle": "मुख्य निष्कर्ष",
+      "statisticsTitle": "आंकड़े",
+      "statisticsDescription": "सर्वेक्षण प्रतिक्रियाओं का विस्तृत विवरण",
+      "observationsTitle": "अवलोकन",
+      "observationsDescription": "संग्रहीत डेटा से मुख्य अवलोकन",
+      "analysisTitle": "विश्लेषण",
+      "analysisDescription": "सर्वेक्षण परिणामों का गहन विश्लेषण",
+      "recommendationsTitle": "सिफारिशें",
+      "recommendationsDescription": "डिजिटल साक्षरता और सेवा अपनाने में सुधार के लिए सुझाव"
+    },
+    "about": {
+      "title": "इस परियोजना के बारे में",
+      "description": "नागरिक डिजिटल सेवा सहायक पहल को समझना",
+      "problemStatement": {
+        "title": "समस्या का विवरण",
+        "description": "जबकि भारत ने कई डिजिटल सरकारी सेवाएं विकसित की हैं, नागरिकों में जागरूकता और प्रभावी उपयोग कम ही रहता है। कई लोग उपलब्ध सेवाओं या उनके उपयोग के तरीके के बारे में अनजान हैं, जिससे भौतिक प्रक्रियाओं और मध्यस्थों पर निर्भरता जारी रहती है।"
+      },
+      "objectives": {
+        "title": "उद्देश्य",
+        "list": [
+          "सरकारी डिजिटल सेवाओं के बारे में जागरूकता बढ़ाना",
+          "व्यापक, आसानी से समझ में आने वाली मार्गदर्शन प्रदान करना",
+          "डिजिटल साक्षरता और आत्मविश्वास को बढ़ावा देना",
+          "सरकारी सेवाओं तक पहुंच में बाधाओं को कम करना",
+          "कई भाषाओं में नागरिकों का समर्थन करना"
+        ]
+      },
+      "methodology": {
+        "title": "पद्धति",
+        "description": "हमने सामुदायिक सर्वेक्षण किए, नागरिक प्रतिक्रिया का विश्लेषण किया, मुख्य चुनौतियों की पहचान की और एक प्रदर्शन मंच के रूप में यह शैक्षणिक वेबसाइट विकसित की।"
+      },
+      "communityInteraction": {
+        "title": "सामुदायिक संपर्क",
+        "description": "विभिन्न आयु समूहों और शैक्षणिक पृष्ठभूमि वाले नागरिकों के साथ उनकी चिंताओं और सूचना आवश्यकताओं को समझने के लिए संपर्क किया।"
+      },
+      "observation": {
+        "title": "अवलोकन",
+        "description": "सामुदायिक संपर्क से मुख्य अंतर्दृष्टि में भाषा वरीयताएं, पसंदीदा सूचना प्रारूप और सेवा अपनाने की सामान्य बाधाएं शामिल हैं।"
+      },
+      "analysis": {
+        "title": "विश्लेषण",
+        "description": "डेटा विश्लेषण से पता चलता है कि सेवा अपनाने के लिए सरलीकृत मार्गदर्शन, बहु-भाषा समर्थन और सुरक्षा जागरूकता महत्वपूर्ण हैं।"
+      },
+      "expectedOutcome": {
+        "title": "अपेक्षित परिणाम",
+        "description": "यह परियोजना प्रदर्शित करती है कि कैसे सुलभ, उपयोगकर्ता-अनुकूल शैक्षणिक संसाधनों के माध्यम से डिजिटल साक्षरता में सुधार किया जा सकता है।"
+      },
+      "projectFlowTitle": "परियोजना प्रवाह",
+      "projectFlow": [
+        "सर्वेक्षण और सामुदायिक अनुसंधान",
+        "समस्या की पहचान",
+        "समाधान डिजाइन",
+        "वेबसाइट विकास",
+        "परीक्षण और परिशोधन",
+        "प्रदर्शन",
+        "प्रतिक्रिया संग्रह",
+        "विश्लेषण और प्रलेखन"
+      ]
+    },
+    "feedback": {
+      "title": "अपनी प्रतिक्रिया साझा करें",
+      "description": "अपने विचार और सुझाव साझा करके हमें सुधारने में मदद करें",
+      "form": {
+        "name": "पूरा नाम",
+        "age": "आयु",
+        "occupation": "व्यवसाय",
+        "preferredLanguage": "पसंदीदा भाषा",
+        "rating": "आप इस वेबसाइट को कैसे रेट करते हैं?",
+        "feedback": "आपकी प्रतिक्रिया",
+        "submit": "प्रतिक्रिया सबमिट करें",
+        "successMessage": "आपकी प्रतिक्रिया के लिए धन्यवाद! हम आपके समय की सराहना करते हैं।",
+        "selectOption": "विकल्प चुनें",
+        "excellent": "बहुत अच्छा",
+        "good": "अच्छा",
+        "average": "औसत",
+        "needsImprovement": "सुधार की जरूरत है"
+      }
+    },
+    "contact": {
+      "title": "संपर्क और जानकारी",
+      "description": "हमसे संपर्क करें या आधिकारिक सरकारी संसाधनों तक पहुंचें",
+      "projectInfo": {
+        "title": "परियोजना जानकारी",
+        "description": "यह एक शैक्षणिक कॉलेज परियोजना (CEP) है जो सरकारी डिजिटल सेवाओं को प्रदर्शित करती है"
+      },
+      "email": {
+        "title": "ईमेल",
+        "value": "contact@example.com"
+      },
+      "github": {
+        "title": "GitHub",
+        "value": "github.com/project"
+      },
+      "officialResources": {
+        "title": "आधिकारिक सरकारी संसाधन",
+        "description": "वास्तविक सेवाओं के लिए हमेशा आधिकारिक सरकारी पोर्टल का उपयोग करें"
+      },
+      "disclaimer": "यह वेबसाइट केवल शैक्षणिक और प्रदर्शन उद्देश्यों के लिए विकसित की गई है। वास्तविक सेवाओं के लिए उपयोगकर्ताओं को हमेशा आधिकारिक सरकारी पोर्टल पर जाना चाहिए।"
+    },
+    "footer": {
+      "quickLinks": "त्वरित लिंक",
+      "governmentResources": "सरकारी संसाधन",
+      "copyright": "© 2024 नागरिक डिजिटल सेवा सहायक। शैक्षणिक परियोजना।",
+      "educationalDisclaimer": "यह वेबसाइट केवल शैक्षणिक और प्रदर्शन उद्देश्यों के लिए विकसित की गई है।"
+    }
+  },
+  "mr": {
+    "nav": {
+      "home": "होम",
+      "services": "सेवा",
+      "faqs": "वारंवार विचारलेले प्रश्न",
+      "digitalSafety": "डिजिटल सुरक्षा",
+      "survey": "सर्वेक्षण",
+      "about": "परिचय",
+      "feedback": "प्रतिक्रिया",
+      "contact": "संपर्क"
+    },
+    "common": {
+      "learnMore": "अधिक जाणून घ्या",
+      "getStarted": "सुरुवात करा",
+      "readMore": "अधिक वाचा",
+      "exploreServices": "सेवा एक्सप्लोर करा",
+      "language": "भाषा",
+      "english": "English",
+      "hindi": "हिंदी",
+      "marathi": "मराठी",
+      "disclaimer": "ही वेबसाइट केवळ शैक्षणिक आणि प्रदर्शन उद्देशांसाठी विकसित केली गेली आहे. वास्तविक सेवांसाठी वापरकर्त्यांनी नेहमी अधिकृत सरकारी पोर्टलला भेट द्यावी.",
+      "submit": "सबमिट करा",
+      "cancel": "रद्द करा",
+      "search": "शोध",
+      "filter": "फिल्टर",
+      "viewOfficial": "अधिकृत वेबसाइट पहा",
+      "relatedServices": "संबंधित सेवा"
+    },
+    "home": {
+      "title": "नागरिक डिजिटल सेवा सहायक",
+      "subtitle": "नागरिकांना सरकारी डिजिटल सेवांविषयी ज्ञानाने सशक्त करणे",
+      "description": "सरकारी डिजिटल सेवा कसे वापरावी आणि प्रवेश कसा मिळवावा ते जाणून घ्या. चरण-दर-चरण मार्गदर्शन, सुरक्षा सुचना आणि आवश्यक सरकारी सेवांची व्यापक माहिती मिळवा.",
+      "heroCtaText": "सेवा एक्सप्लोर करा",
+      "heroCtaSecondary": "डिजिटल सुरक्षा जाणून घ्या",
+      "featuresTitle": "आमची निवड का करा?",
+      "features": [
+        {
+          "title": "समजणे सोपे",
+          "description": "सरल, चरण-दर-चरण मार्गदर्शन जे कोणीही अनुसरण करू शकतो"
+        },
+        {
+          "title": "अनेक भाषांमध्ये उपलब्ध",
+          "description": "इंग्रजी, हिंदी आणि मराठीमध्ये उपलब्ध"
+        },
+        {
+          "title": "व्यापक",
+          "description": "सर्व प्रमुख सरकारी डिजिटल सेवांचा समावेश करते"
+        },
+        {
+          "title": "सुरक्षित",
+          "description": "डिजिटल सुरक्षा आणि सायबर जागरूकता जाणून घ्या"
+        }
+      ],
+      "servicesTitle": "सरकारी सेवा",
+      "servicesDescription": "नागरिकांसाठी उपलब्ध शीर्ष सरकारी डिजिटल सेवांचा शोध घ्या",
+      "statsTitle": "सामुदायिक जागरूकता",
+      "stats": [
+        {
+          "number": "5",
+          "label": "सरकारी सेवा समाविष्ट"
+        },
+        {
+          "number": "1000+",
+          "label": "नागरिकांचा सर्वेक्षण केला"
+        },
+        {
+          "number": "3",
+          "label": "समर्थित भाषा"
+        },
+        {
+          "number": "20+",
+          "label": "FAQ उत्तर"
+        }
+      ],
+      "howItWorksTitle": "ते कसे काम करते",
+      "howItWorks": [
+        {
+          "step": "1",
+          "title": "सेवा ब्राउজ करा",
+          "description": "तुमच्यासाठी उपलब्ध सरकारी डिजिटल सेवांचा शोध घ्या"
+        },
+        {
+          "step": "2",
+          "title": "मार्गदर्शन वाचा",
+          "description": "पात्रता, कागदपत्र आणि चरण-दर-चरण प्रक्रिया समजून घ्या"
+        },
+        {
+          "step": "3",
+          "title": "अधिकृत पोर्टलला जा",
+          "description": "अधिकृत सरकारी पोर्टलच्या लिंकचे अनुसरण करा"
+        },
+        {
+          "step": "4",
+          "title": "समर्थन मिळवा",
+          "description": "अर्ज करताना FAQ आणि डिजिटल सुरक्षा टिप्स पुनरावलोकन करा"
+        }
+      ],
+      "communityTitle": "सामुदायिक प्रभाव",
+      "communityDescription": "आमचे मिशन डिजिटल विभाजन कमी करणे आणि नागरिकांना ज्ञानाने सशक्त बनवणे आहे",
+      "ctaTitle": "सुरुवाती करण्यासाठी तयार?",
+      "ctaDescription": "सरकारी डिजिटल सेवांचा शोध घ्या आणि तुमची डिजिटल साक्षरता सुधारा",
+      "ctaButton": "सर्व सेवा पहा"
+    },
+    "services": {
+      "title": "सरकारी डिजिटल सेवा",
+      "description": "आवश्यक सरकारी डिजिटल सेवांसाठी चरण-दर-चरण मार्गदर्शन अ‍ॅक्सेस करा",
+      "searchPlaceholder": "सेवा शोधा...",
+      "noResults": "तुमच्या शोधाशी जुळणारी कोणतीही सेवा सापडली नाही"
+    },
+    "serviceDetail": {
+      "overview": "आढावा",
+      "purpose": "उद्देश",
+      "eligibility": "पात्रता",
+      "requiredDocuments": "आवश्यक कागदपत्र",
+      "stepByStepGuide": "चरण-दर-चरण मार्गदर्शन",
+      "tips": "उपयुक्त सुचना",
+      "commonMistakes": "सामान्य चुका",
+      "faqs": "वारंवार विचारलेले प्रश्न",
+      "officialWebsite": "अधिकृत वेबसाइटला जा",
+      "educationalDisclaimer": "शैक्षणिक अस्वीकरण"
+    },
+    "faqs": {
+      "title": "वारंवार विचारलेले प्रश्न",
+      "description": "सरकारी डिजिटल सेवांविषयी सामान्य प्रश्नांची उत्तरे शोधा",
+      "noResults": "कोणत्याही FAQ सापडले नाही"
+    },
+    "digitalSafety": {
+      "title": "डिजिटल सुरक्षा आणि सायबर जागरूकता",
+      "description": "सरकारी डिजिटल सेवा वापरताना सुरक्षित राहणे शिका",
+      "otpSafety": {
+        "title": "OTP सुरक्षा",
+        "description": "वन-टाइम पासवर्ड (OTP) सुरक्षाच्या दृष्टीने महत्वाचे आहेत. तुमचा OTP कोणाशीही साझा करू नका, अगदी सरकारी अधिकार्यांशीही नाही. OTP वेळ-सीमित असतात आणि काही मिनिटांसाठी वैध असतात."
+      },
+      "passwordSafety": {
+        "title": "पासवर्ड सुरक्षा",
+        "description": "मोठे अक्षर, लहान अक्षर, संख्या आणि विशेष वर्णांचे मिश्रण असलेले मजबूत पासवर्ड वापरा. पासवर्डमध्ये जन्मतारीख किंवा फोन नंबरसारखी व्यक्तिगत माहिती वापरू नका."
+      },
+      "governmentScams": {
+        "title": "सरकारी अपघ्रास्य हमल्यांपासून बचा",
+        "description": "बनावट सरकारी वेबसाइटांच्या किंवा व्यक्तिगत माहितीचे अनुरोध करणार्‍या कॉलच्या जवळचे सामान्य अपघ्रास्य हमले जाणून घ्या. वैध सरकारी संस्थांनी कधीही फोन किंवा ईमेलद्वारे पासवर्ड किंवा संवेदनशील डेटा मागणार नाहीत."
+      },
+      "fakeWebsites": {
+        "title": "बनावट वेबसाइटांना ओळखा",
+        "description": "URL सावधानीपूर्वक तपासा - अधिकृत वेबसाइटें .gov.in डोमेन वापरतात. HTTPS सुरक्षा, डोमेन नावांमध्ये योग्य स्पेलिंग आणि अधिकृत ब्रँडिंग शोधा."
+      },
+      "officialDomains": {
+        "title": "अधिकृत सरकारी डोमेन",
+        "description": "अधिकृत सरकारी वेबसाइटें नेहमी .gov.in डोमेन सफिक्स वापरतात. समान दिसणार्‍या डोमेनपासून सावधान राहा. थेट प्रवेशासाठी अधिकृत वेबसाइटी बुकमार्क करा."
+      },
+      "cyberAwareness": {
+        "title": "सायबर जागरूकता",
+        "description": "तुमची डिव्हाइस नवीनतम सुरक्षा पैच सह अपडेट ठेवा. अँटीव्हायरस सॉफ्टवेअर वापरा. अज्ञात स्रोतांपासून ईमेल अटॅचमेंट आणि लिंकच्या विरूद्ध सावधान राहा."
+      },
+      "safePractices": {
+        "title": "सुरक्षित डिजिटल व्यवहार",
+        "tips": [
+          "सार्वजनिक वाई-फाई सावधानीपूर्वक वापरा - संवेदनशील व्यवहारांसाठी मोबाइल डेटा पसंत करा",
+          "सरकारी पोर्टल वापरल्यानंतर पूर्णतः लॉगआउट करा",
+          "ब्राउজर कॅश आणि कुकीज नियमितपणे साफ करा",
+          "जेथे उपलब्ध असेल तेथे दोन-घटक प्रमाणीकरण वापरा",
+          "सुरक्षा प्रश्नांची उत्तरे अलग आणि सुरक्षित ठेवा"
+        ]
+      }
+    },
+    "survey": {
+      "title": "सर्वेक्षण विश्लेषण आणि अंतर्दृष्टी",
+      "description": "आमच्या सर्वेक्षणातून सामुदायिक प्रतिक्रिया आणि जागरूकता विश्लेषण",
+      "surveyDetails": "सर्वेक्षण तपशील",
+      "methodologyTitle": "सर्वेक्षण पद्धति",
+      "methodologyDescription": "हा सर्वेक्षण 1000+ नागरिकांसह विविध वयोगटांमध्ये सरकारी डिजिटल सेवांच्या जागरूकता आणि वापराची समजण्यासाठी आयोजित करण्यात आला होता.",
+      "findingsTitle": "मुख्य शोध",
+      "statisticsTitle": "आकडेवारी",
+      "statisticsDescription": "सर्वेक्षण प्रतिक्रियांचा तपशीलवार विभाग",
+      "observationsTitle": "निरीक्षण",
+      "observationsDescription": "संग्रहीत डेटावरून मुख्य निरीक्षण",
+      "analysisTitle": "विश्लेषण",
+      "analysisDescription": "सर्वेक्षण परिणामांचे गहन विश्लेषण",
+      "recommendationsTitle": "शिफारशी",
+      "recommendationsDescription": "डिजिटल साक्षरता आणि सेवा स्वीकृती सुधारण्यासाठी सुचना"
+    },
+    "about": {
+      "title": "या प्रकल्पाविषयी",
+      "description": "नागरिक डिजिटल सेवा सहायक उपक्रमाची समज",
+      "problemStatement": {
+        "title": "समस्या विवरण",
+        "description": "जरी भारतांनी अनेक डिजिटल सरकारी सेवा विकसित केल्या आहेत, तरी नागरिकांमध्ये जागरूकता आणि प्रभावी वापर कमी राहतो. बर्‍याच लोकांना उपलब्ध सेवांच्या किंवा त्यांच्या वापराच्या मार्गाबद्दल अनजान आहेत, ज्यामुळे शारीरिक प्रक्रिया आणि मध्यस्थांवर अवलंबन चालूच राहते."
+      },
+      "objectives": {
+        "title": "उद्देश",
+        "list": [
+          "सरकारी डिजिटल सेवांविषयी जागरूकता वाढवा",
+          "व्यापक, सहज समजण्यायोग्य मार्गदर्शन प्रदान करा",
+          "डिजिटल साक्षरता आणि आत्मविश्वास प्रचार करा",
+          "सरकारी सेवांच्या प्रवेशामध्ये अडथळे कमी करा",
+          "अनेक भाषांमध्ये नागरिकांना समर्थन देणे"
+        ]
+      },
+      "methodology": {
+        "title": "पद्धति",
+        "description": "आम्ही सामुदायिक सर्वेक्षण आयोजित केले, नागरिकांची प्रतिक्रिया विश्लेषण केली, मुख्य आव्हानांची ओळख केली आणि प्रदर्शन मंच म्हणून हा शैक्षणिक वेबसाइट विकसित केला."
+      },
+      "communityInteraction": {
+        "title": "सामुदायिक संवाद",
+        "description": "विविध वयोगट आणि शैक्षणिक पार्श्वभूमीच्या नागरिकांसह संपर्क स्थापित करून त्यांच्या चिंता आणि माहिती आवश्यकता समजून घेतल्या."
+      },
+      "observation": {
+        "title": "निरीक्षण",
+        "description": "सामुदायिक संवादातून मुख्य अंतर्दृष्टीमध्ये भाषा प्राधान्य, पसंदीचे माहिती स्वरूप आणि सेवा स्वीकृतीच्या सामान्य अडथळे समाविष्ट आहेत."
+      },
+      "analysis": {
+        "title": "विश्लेषण",
+        "description": "डेटा विश्लेषणावरून असे दिसून येते की सरलीकृत मार्गदर्शन, बहु-भाषा समर्थन आणि सुरक्षा जागरूकता सेवा स्वीकृतीसाठी महत्वाचे आहेत."
+      },
+      "expectedOutcome": {
+        "title": "अपेक्षित परिणाम",
+        "description": "हा प्रकल्प प्रदर्शित करतो की सुलभ, वापरकर्ता-अनुकूल शैक्षणिक संसाधनांद्वारे डिजिटल साक्षरता कशी सुधारली जाऊ शकते."
+      },
+      "projectFlowTitle": "प्रकल्प प्रवाह",
+      "projectFlow": [
+        "सर्वेक्षण आणि सामुदायिक संशोधन",
+        "समस्या ओळख",
+        "समाधान डिजाइन",
+        "वेबसाइट विकास",
+        "परीक्षण आणि परिशोधन",
+        "प्रदर्शन",
+        "प्रतिक्रिया संकलन",
+        "विश्लेषण आणि दस्तऐवज"
+      ]
+    },
+    "feedback": {
+      "title": "तुमची प्रतिक्रिया साझा करा",
+      "description": "तुमचे विचार आणि सुचना साझा करून आमला सुधारण्यास मदत करा",
+      "form": {
+        "name": "पूर्ण नाव",
+        "age": "वय",
+        "occupation": "व्यवसाय",
+        "preferredLanguage": "पसंदीची भाषा",
+        "rating": "तुम्ही या वेबसाइटची रेटिंग कसे कराल?",
+        "feedback": "तुमची प्रतिक्रिया",
+        "submit": "प्रतिक्रिया सबमिट करा",
+        "successMessage": "तुमच्या प्रतिक्रियेसाठी धन्यवाद! आम्ही तुमच्या वेळाची प्रशंसा करतो.",
+        "selectOption": "एक पर्याय निवडा",
+        "excellent": "उत्कृष्ट",
+        "good": "चांगला",
+        "average": "सरासरी",
+        "needsImprovement": "सुधार आवश्यक"
+      }
+    },
+    "contact": {
+      "title": "संपर्क आणि माहिती",
+      "description": "आमच्याशी संपर्क साधा किंवा अधिकृत सरकारी संसाधनांमध्ये प्रवेश करा",
+      "projectInfo": {
+        "title": "प्रकल्प माहिती",
+        "description": "हा एक शैक्षणिक कॉलेज प्रकल्प (CEP) आहे जो सरकारी डिजिटल सेवांचे प्रदर्शन करतो"
+      },
+      "email": {
+        "title": "ईमेल",
+        "value": "contact@example.com"
+      },
+      "github": {
+        "title": "GitHub",
+        "value": "github.com/project"
+      },
+      "officialResources": {
+        "title": "अधिकृत सरकारी संसाधन",
+        "description": "वास्तविक सेवांसाठी नेहमी अधिकृत सरकारी पोर्टल वापरा"
+      },
+      "disclaimer": "ही वेबसाइट केवळ शैक्षणिक आणि प्रदर्शन उद्देशांसाठी विकसित केली गेली आहे. वास्तविक सेवांसाठी वापरकर्त्यांनी नेहमी अधिकृत सरकारी पोर्टलला भेट द्यावी."
+    },
+    "footer": {
+      "quickLinks": "द्रुत लिंक",
+      "governmentResources": "सरकारी संसाधन",
+      "copyright": "© 2024 नागरिक डिजिटल सेवा सहायक. शैक्षणिक प्रकल्प.",
+      "educationalDisclaimer": "ही वेबसाइट केवळ शैक्षणिक आणि प्रदर्शन उद्देशांसाठी विकसित केली गेली आहे."
+    }
+  }
+}

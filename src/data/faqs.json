@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "What is the easiest government service to apply for online?",
+    "answer": "PAN Card is one of the easiest as it can be applied for entirely online with a simple form and document upload. The entire process takes just a few clicks and you receive your PAN via email within 7-10 days."
+  },
+  {
+    "id": 2,
+    "question": "How can I verify if a government website is official?",
+    "answer": "Official government websites always use .gov.in domain. Check for HTTPS security (lock icon in browser), proper spelling, official logos, and contact information. Avoid websites with similar names or different domain extensions."
+  },
+  {
+    "id": 3,
+    "question": "Is it safe to share my Aadhaar number?",
+    "answer": "Never share your Aadhaar number with unknown persons or unverified websites. Only provide it to authorized government agencies and trusted institutions. UIDAI recommends being cautious about sharing your Aadhaar."
+  },
+  {
+    "id": 4,
+    "question": "What should I do if I receive a call asking for OTP?",
+    "answer": "NEVER share your OTP with anyone, even if they claim to be from a government agency. Legitimate government officials will never ask for your OTP over phone or email. If you receive such calls, report them to the Police."
+  },
+  {
+    "id": 5,
+    "question": "Can I apply for multiple services at the same time?",
+    "answer": "Yes, you can apply for Aadhaar, PAN, DigiLocker, Passport, and Driving Licence simultaneously. Each service has independent application process. Many people apply for multiple services during their routine government interactions."
+  },
+  {
+    "id": 6,
+    "question": "How do I create a strong password for government services?",
+    "answer": "Use at least 8 characters combining uppercase letters, lowercase letters, numbers, and special characters. Avoid using birth dates, phone numbers, or sequential characters. Never reuse passwords across different services."
+  },
+  {
+    "id": 7,
+    "question": "What if I made a mistake in my Aadhaar application?",
+    "answer": "You can update your Aadhaar details at any enrollment center. Corrections for name, date of birth, and other details are free and can be done online through the UIDAI portal."
+  },
+  {
+    "id": 8,
+    "question": "Is DigiLocker document accepted for official purposes?",
+    "answer": "Yes, DigiLocker documents are legally valid as per the Indian Evidence Act. Most government and financial institutions accept DigiLocker documents for official purposes."
+  },
+  {
+    "id": 9,
+    "question": "How long should I keep my documents after uploading to DigiLocker?",
+    "answer": "You should maintain both digital copies (in DigiLocker) and physical copies of important documents. DigiLocker is a backup, not a replacement for originals in certain situations."
+  },
+  {
+    "id": 10,
+    "question": "What is the age requirement for passport?",
+    "answer": "Any Indian citizen of any age can apply for a passport. Minors require parental consent. Child passports (below 18) are valid for 5 years, while adult passports are valid for 10 years."
+  },
+  {
+    "id": 11,
+    "question": "What is the difference between Tatkal and regular passport?",
+    "answer": "Tatkal passport is an expedited service that processes applications in 48-72 hours instead of 10-15 days, but charges additional fees. It's useful for urgent travel requirements."
+  },
+  {
+    "id": 12,
+    "question": "Do I need a learner's license before applying for Driving Licence?",
+    "answer": "Yes, in most states you must first obtain a learner's license, wait for 30 days, and then apply for the actual Driving Licence. This ensures you have basic knowledge and driving practice."
+  },
+  {
+    "id": 13,
+    "question": "Can I apply for Driving Licence without taking driving classes?",
+    "answer": "Technically you can apply, but it is highly recommended to take driving classes from authorized driving schools. Proper training increases your chances of passing the practical test and ensures safe driving."
+  },
+  {
+    "id": 14,
+    "question": "How should I protect my personal documents from cyber threats?",
+    "answer": "Store digital copies in encrypted cloud storage, use strong passwords, enable two-factor authentication, keep your device updated with security patches, and use antivirus software. Never email sensitive documents over public WiFi."
+  },
+  {
+    "id": 15,
+    "question": "What are common government service scams I should be aware of?",
+    "answer": "Be cautious of unsolicited calls/emails asking for personal information, fake government websites with .com/.net instead of .gov.in, requests for advance fees for free services, and offers of quick licenses without proper procedures."
+  },
+  {
+    "id": 16,
+    "question": "Is it legal to take screenshots of government documents from DigiLocker?",
+    "answer": "Yes, you can take screenshots of your DigiLocker documents. However, only the original documents from DigiLocker or official portals have full legal validity. Screenshots are for personal reference only."
+  },
+  {
+    "id": 17,
+    "question": "What should I do if I forget my login credentials for government portals?",
+    "answer": "Most government portals have a 'Forgot Password' option. Use it to reset your password via email or OTP. Never share your credentials with anyone claiming to help you recover them."
+  },
+  {
+    "id": 18,
+    "question": "Can I update my personal information in government documents?",
+    "answer": "Yes, most government documents (Aadhaar, PAN, Passport, Driving Licence) allow updates through official procedures. Visit the respective office or use the online portal for corrections."
+  },
+  {
+    "id": 19,
+    "question": "What is the safest way to access government services on public WiFi?",
+    "answer": "Avoid accessing government services on public WiFi. Use your mobile data instead, which is more secure. If you must use WiFi, use a VPN, but even better - wait until you're on a secure connection."
+  },
+  {
+    "id": 20,
+    "question": "How can I report a fake government website or scam?",
+    "answer": "Report to the Cyber Crime Cell of your local Police, lodge an FIR, contact the official government agency whose website is being impersonated, or use the CyberCrime Portal (cybercrime.gov.in)."
+  }
+]

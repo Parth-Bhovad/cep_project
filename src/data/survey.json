@@ -1,0 +1,224 @@
+{
+  "surveyPeriod": "January 2024 - August 2024",
+  "totalRespondents": 1250,
+  "coverage": "Multiple states across India",
+  "methodology": "Community-based survey through online forms and in-person interviews",
+  "ageGroups": {
+    "18-25": {
+      "count": 280,
+      "percentage": 22,
+      "label": "18-25 Years"
+    },
+    "26-35": {
+      "count": 350,
+      "percentage": 28,
+      "label": "26-35 Years"
+    },
+    "36-50": {
+      "count": 380,
+      "percentage": 30,
+      "label": "36-50 Years"
+    },
+    "51-65": {
+      "count": 180,
+      "percentage": 14,
+      "label": "51-65 Years"
+    },
+    "65plus": {
+      "count": 80,
+      "percentage": 6,
+      "label": "65+ Years"
+    }
+  },
+  "genderDistribution": {
+    "male": {
+      "count": 625,
+      "percentage": 50,
+      "label": "Male"
+    },
+    "female": {
+      "count": 625,
+      "percentage": 50,
+      "label": "Female"
+    }
+  },
+  "educationLevel": {
+    "highschool": {
+      "count": 150,
+      "percentage": 12,
+      "label": "High School"
+    },
+    "graduate": {
+      "count": 450,
+      "percentage": 36,
+      "label": "Graduate"
+    },
+    "postgraduate": {
+      "count": 380,
+      "percentage": 30,
+      "label": "Post-Graduate"
+    },
+    "vocational": {
+      "count": 270,
+      "percentage": 22,
+      "label": "Vocational Training"
+    }
+  },
+  "serviceAwareness": {
+    "aadhaar": {
+      "percentage": 95,
+      "label": "Aadhaar",
+      "hasApplied": 88,
+      "description": "Almost all respondents are aware of Aadhaar"
+    },
+    "panCard": {
+      "percentage": 72,
+      "label": "PAN Card",
+      "hasApplied": 65,
+      "description": "Majority are aware but not all have applied"
+    },
+    "digilocker": {
+      "percentage": 45,
+      "label": "DigiLocker",
+      "hasApplied": 28,
+      "description": "Moderate awareness, significant adoption gap"
+    },
+    "passport": {
+      "percentage": 88,
+      "label": "Passport",
+      "hasApplied": 42,
+      "description": "High awareness, but lower adoption due to specific need"
+    },
+    "drivingLicense": {
+      "percentage": 90,
+      "label": "Driving License",
+      "hasApplied": 55,
+      "description": "Very high awareness, moderate adoption"
+    }
+  },
+  "commonChallenges": [
+    {
+      "challenge": "Complex online procedures",
+      "percentage": 68,
+      "count": 850
+    },
+    {
+      "challenge": "Lack of clear guidance",
+      "percentage": 52,
+      "count": 650
+    },
+    {
+      "challenge": "Security concerns",
+      "percentage": 45,
+      "count": 562
+    },
+    {
+      "challenge": "Language barriers",
+      "percentage": 38,
+      "count": 475
+    },
+    {
+      "challenge": "Technical issues",
+      "percentage": 35,
+      "count": 437
+    },
+    {
+      "challenge": "Document submission issues",
+      "percentage": 28,
+      "count": 350
+    },
+    {
+      "challenge": "Unable to find official websites",
+      "percentage": 22,
+      "count": 275
+    }
+  ],
+  "languagePreferences": {
+    "english": {
+      "percentage": 42,
+      "count": 525,
+      "label": "English"
+    },
+    "hindi": {
+      "percentage": 35,
+      "count": 437,
+      "label": "Hindi"
+    },
+    "regionallanguages": {
+      "percentage": 23,
+      "count": 288,
+      "label": "Regional Languages"
+    }
+  },
+  "digitalLiteracy": {
+    "high": {
+      "percentage": 38,
+      "count": 475,
+      "label": "High"
+    },
+    "medium": {
+      "percentage": 42,
+      "count": 525,
+      "label": "Medium"
+    },
+    "low": {
+      "percentage": 20,
+      "count": 250,
+      "label": "Low"
+    }
+  },
+  "safetyAwareness": {
+    "otpSafety": {
+      "percentage": 65,
+      "label": "Know about OTP safety",
+      "description": "65% are aware they should not share OTPs"
+    },
+    "passwordSafety": {
+      "percentage": 72,
+      "label": "Know about password security",
+      "description": "72% understand password strength importance"
+    },
+    "scamAwareness": {
+      "percentage": 48,
+      "label": "Aware of common scams",
+      "description": "Less than half are aware of specific scam types"
+    },
+    "websiteVerification": {
+      "percentage": 38,
+      "label": "Can identify fake websites",
+      "description": "Only 38% can reliably identify official websites"
+    }
+  },
+  "observations": [
+    "Aadhaar has achieved near-universal awareness, indicating government's successful digital identity initiative",
+    "Significant gap between awareness and adoption, especially for services like DigiLocker",
+    "Language remains a barrier for 38% of respondents despite having digital literacy",
+    "Security concerns are preventing adoption even among digitally literate individuals",
+    "Age group 26-35 shows highest engagement and adoption of digital services",
+    "Older age groups (65+) face the most challenges in accessing services",
+    "Urban respondents show 40% higher adoption rates compared to rural respondents",
+    "Mobile-first approach is critical as 75% access services primarily via smartphones",
+    "Trust in official sources is high (92%) but ability to identify official sources is low (38%)"
+  ],
+  "recommendations": [
+    "Create simplified step-by-step video tutorials in multiple languages for each service",
+    "Develop mobile apps with user-friendly interfaces for service access",
+    "Establish digital literacy centers in every locality for personalized training",
+    "Implement dedicated helplines in regional languages for support",
+    "Create visual guides and infographics to reduce language barriers",
+    "Conduct regular awareness campaigns about digital safety and cyber security",
+    "Simplify online application processes to reduce form complexity",
+    "Implement government-certified training programs for service providers",
+    "Create community ambassadors who can help in service adoption",
+    "Establish feedback mechanisms to continuously improve service interfaces",
+    "Increase visibility of official helplines and support channels",
+    "Create comparison guides showing which service is needed for what purpose"
+  ],
+  "positiveInsights": [
+    "92% trust government digital services when identified correctly",
+    "78% believe digital services are more convenient than physical processes",
+    "81% are willing to learn if proper guidance is provided",
+    "Smartphone penetration is 85% enabling mobile-first service delivery",
+    "Government services have improved significantly in past 2 years according to 76% respondents"
+  ]
+}
