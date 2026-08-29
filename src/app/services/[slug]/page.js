@@ -1,5 +1,6 @@
 'use client';
 
+import { use } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
 import Section from '@/components/Section';
@@ -9,8 +10,9 @@ import FAQAccordion from '@/components/FAQAccordion';
 import services from '@/data/services.json';
 
 export default function ServiceDetail({ params }) {
+  const { slug } = use(params);
   const { t } = useLanguage();
-  const service = services.find(s => s.slug === params.slug);
+  const service = services.find(s => s.slug === slug);
 
   if (!service) {
     return (
@@ -33,19 +35,20 @@ export default function ServiceDetail({ params }) {
 
   return (
     <>
-      {/* Hero Section */}
-      <Section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white pt-24">
+      <Section className="bg-gradient-to-br from-blue-700 via-blue-800 to-sky-900 pt-20 text-white">
         <Container>
-          <div className="flex items-start gap-6 mb-8">
-            <div className="text-6xl">{service.icon}</div>
-            <div>
-              <div className="inline-block px-3 py-1 bg-blue-400 text-blue-900 text-xs font-semibold rounded-full mb-4">
+          <div className="flex flex-col gap-6 md:flex-row md:items-start">
+            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-white/10 text-5xl shadow-inner md:h-24 md:w-24">
+              {service.icon}
+            </div>
+            <div className="max-w-3xl">
+              <div className="mb-4 inline-flex rounded-full bg-blue-300/20 px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-blue-100">
                 {service.category}
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
                 {service.title}
               </h1>
-              <p className="text-xl text-blue-100">
+              <p className="mt-4 text-lg text-blue-100 md:text-xl">
                 {service.shortDescription}
               </p>
             </div>
@@ -53,149 +56,133 @@ export default function ServiceDetail({ params }) {
         </Container>
       </Section>
 
-      {/* Overview Section */}
       <Section>
         <Container>
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Main Content */}
-            <div className="md:col-span-2 space-y-8">
-              {/* Overview */}
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div className="grid gap-8 lg:grid-cols-[minmax(0,2fr)_320px]">
+            <div className="space-y-8">
+              <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-4 text-2xl font-bold text-slate-900">
                   {t('serviceDetail.overview')}
                 </h2>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-base leading-8 text-slate-700">
                   {service.overview}
                 </p>
               </div>
 
-              {/* Purpose */}
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-4 text-2xl font-bold text-slate-900">
                   {t('serviceDetail.purpose')}
                 </h2>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-base leading-8 text-slate-700">
                   {service.purpose}
                 </p>
               </div>
 
-              {/* Eligibility */}
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-4 text-2xl font-bold text-slate-900">
                   {t('serviceDetail.eligibility')}
                 </h2>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-base leading-8 text-slate-700">
                   {service.eligibility}
                 </p>
               </div>
 
-              {/* Required Documents */}
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-4 text-2xl font-bold text-slate-900">
                   {t('serviceDetail.requiredDocuments')}
                 </h2>
-                <ul className="list-disc list-inside space-y-2 text-gray-600">
+                <ul className="list-disc space-y-2 pl-6 text-base leading-7 text-slate-700">
                   {service.requiredDocuments.map((doc, idx) => (
                     <li key={idx}>{doc}</li>
                   ))}
                 </ul>
               </div>
 
-              {/* Step by Step Guide */}
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-4 text-2xl font-bold text-slate-900">
                   {t('serviceDetail.stepByStepGuide')}
                 </h2>
-                <ol className="list-decimal list-inside space-y-3">
+                <ol className="list-decimal space-y-3 pl-6 text-base leading-7 text-slate-700">
                   {service.stepByStepGuide.map((step, idx) => (
-                    <li key={idx} className="text-gray-600">
-                      <span className="ml-2">{step}</span>
-                    </li>
+                    <li key={idx}>{step}</li>
                   ))}
                 </ol>
               </div>
 
-              {/* Tips */}
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-4 text-2xl font-bold text-slate-900">
                   {t('serviceDetail.tips')}
                 </h2>
-                <ul className="list-disc list-inside space-y-2 text-gray-600">
+                <ul className="list-disc space-y-2 pl-6 text-base leading-7 text-slate-700">
                   {service.tips.map((tip, idx) => (
-                    <li key={idx} className="ml-2">{tip}</li>
+                    <li key={idx}>{tip}</li>
                   ))}
                 </ul>
               </div>
 
-              {/* Common Mistakes */}
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-4 text-2xl font-bold text-slate-900">
                   {t('serviceDetail.commonMistakes')}
                 </h2>
-                <ul className="list-disc list-inside space-y-2 text-gray-600">
+                <ul className="list-disc space-y-2 pl-6 text-base leading-7 text-slate-700">
                   {service.commonMistakes.map((mistake, idx) => (
-                    <li key={idx} className="ml-2">{mistake}</li>
+                    <li key={idx}>{mistake}</li>
                   ))}
                 </ul>
               </div>
 
-              {/* FAQs */}
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h2 className="mb-4 text-2xl font-bold text-slate-900">
                   {t('serviceDetail.faqs')}
                 </h2>
                 <FAQAccordion faqs={service.faqs} />
               </div>
             </div>
 
-            {/* Sidebar */}
-            <div className="md:col-span-1">
-              {/* CTA Box */}
-              <div className="bg-blue-50 rounded-xl p-6 mb-8 sticky top-20">
-                <h3 className="font-bold text-gray-900 mb-4">Ready to Apply?</h3>
+            <aside className="space-y-6 lg:pt-2">
+              <div className="sticky top-20 rounded-2xl border border-blue-200 bg-blue-50 p-6 shadow-sm">
+                <h3 className="mb-4 text-xl font-bold text-slate-900">Ready to Apply?</h3>
                 <a
                   href={service.officialWebsite}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors text-center mb-4"
+                  className="mb-4 block rounded-xl bg-blue-600 px-5 py-3 text-center text-base font-semibold text-white transition-colors hover:bg-blue-700"
                 >
                   {t('serviceDetail.officialWebsite')}
                 </a>
-                <p className="text-xs text-gray-600">
+                <p className="text-sm leading-6 text-slate-600">
                   This will open the official government website in a new tab.
                 </p>
               </div>
 
-              {/* Educational Disclaimer */}
-              <div className="bg-yellow-50 border-2 border-yellow-200 rounded-xl p-4">
-                <h4 className="font-bold text-gray-900 mb-2 text-sm">
+              <div className="rounded-2xl border border-yellow-200 bg-yellow-50 p-5">
+                <h4 className="mb-2 text-sm font-bold uppercase tracking-wide text-slate-800">
                   {t('serviceDetail.educationalDisclaimer')}
                 </h4>
-                <p className="text-xs text-gray-600 leading-relaxed">
+                <p className="text-sm leading-6 text-slate-700">
                   {t('common.disclaimer')}
                 </p>
               </div>
-            </div>
+            </aside>
           </div>
         </Container>
       </Section>
 
-      {/* Related Services */}
       {relatedServices.length > 0 && (
-        <Section className="bg-gray-50">
+        <Section className="bg-slate-50">
           <Container>
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">
+            <h2 className="mb-8 text-3xl font-bold text-slate-900">
               {t('common.relatedServices')}
             </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {relatedServices.map(relatedService => (
-                <Link key={relatedService.id} href={`/services/${relatedService.slug}`}>
-                  <div className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-all border border-gray-100 cursor-pointer h-full">
-                    <div className="text-3xl mb-3">{relatedService.icon}</div>
-                    <h3 className="font-bold text-gray-900 mb-2">
+                <Link key={relatedService.id} href={`/services/${relatedService.slug}`} className="group block h-full">
+                  <div className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-blue-300 hover:shadow-md">
+                    <div className="mb-4 text-3xl">{relatedService.icon}</div>
+                    <h3 className="mb-2 text-xl font-bold text-slate-900 group-hover:text-blue-700">
                       {relatedService.title}
                     </h3>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm leading-6 text-slate-600">
                       {relatedService.shortDescription}
                     </p>
                   </div>
@@ -206,12 +193,11 @@ export default function ServiceDetail({ params }) {
         </Section>
       )}
 
-      {/* Disclaimer Section */}
-      <Section className="bg-yellow-50 border-t-4 border-yellow-400">
+      <Section className="border-t-4 border-yellow-400 bg-yellow-50 py-14">
         <Container>
-          <div className="bg-white rounded-lg p-6 border-l-4 border-yellow-400">
-            <p className="text-gray-700 leading-relaxed">
-              ⚠️ <strong>Educational Disclaimer:</strong> {t('common.disclaimer')}
+          <div className="rounded-2xl border-l-4 border-yellow-400 bg-white p-6 shadow-sm">
+            <p className="text-base leading-7 text-slate-700">
+              <span className="font-bold text-yellow-700">⚠️ Educational Disclaimer:</span> {t('common.disclaimer')}
             </p>
           </div>
         </Container>

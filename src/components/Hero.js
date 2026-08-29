@@ -8,26 +8,33 @@ export default function Hero({
   secondaryCtaAction 
 }) {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white pt-20">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+    <div className="flex min-h-[74vh] items-center justify-center bg-gradient-to-br from-blue-50 via-white to-sky-50 pt-20 pb-16 sm:pt-24 sm:pb-20">
+      <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
+        <div className="inline-flex items-center rounded-full border border-blue-200 bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700 shadow-sm">
+          Digital services made simple
+        </div>
+
+        <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
           {title}
         </h1>
+
         {subtitle && (
-          <p className="text-xl md:text-2xl text-blue-600 font-semibold mb-4">
+          <p className="mt-4 text-lg font-semibold text-blue-700 sm:text-xl md:text-2xl">
             {subtitle}
           </p>
         )}
+
         {description && (
-          <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-slate-600 sm:text-lg">
             {description}
           </p>
         )}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           {primaryCta && (
             <button
               onClick={primaryCtaAction}
-              className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200"
+              className="w-full rounded-xl bg-blue-600 px-7 py-3.5 text-base font-semibold text-white shadow-sm transition-all duration-200 hover:bg-blue-700 hover:shadow-md sm:w-auto"
             >
               {primaryCta}
             </button>
@@ -35,7 +42,7 @@ export default function Hero({
           {secondaryCta && (
             <button
               onClick={secondaryCtaAction}
-              className="px-8 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors duration-200"
+              className="w-full rounded-xl border-2 border-blue-600 bg-white px-7 py-3.5 text-base font-semibold text-blue-700 transition-all duration-200 hover:bg-blue-50 sm:w-auto"
             >
               {secondaryCta}
             </button>

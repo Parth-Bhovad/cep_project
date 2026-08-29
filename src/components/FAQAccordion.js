@@ -10,19 +10,19 @@ export default function FAQAccordion({ faqs }) {
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       {faqs.map((faq) => (
         <div
           key={faq.id}
-          className="border border-gray-200 rounded-lg overflow-hidden bg-white hover:border-blue-300 transition-colors"
+          className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-colors hover:border-blue-200"
         >
           <button
             onClick={() => toggleFAQ(faq.id)}
-            className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+            className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left transition-colors hover:bg-slate-50"
           >
-            <h3 className="font-semibold text-gray-900 text-lg">{faq.question}</h3>
+            <h3 className="text-base font-semibold text-slate-900 md:text-lg">{faq.question}</h3>
             <span
-              className={`text-2xl text-blue-600 transition-transform duration-300 ${
+              className={`text-xl text-blue-600 transition-transform duration-300 ${
                 openId === faq.id ? 'rotate-180' : ''
               }`}
             >
@@ -30,8 +30,8 @@ export default function FAQAccordion({ faqs }) {
             </span>
           </button>
           {openId === faq.id && (
-            <div className="px-6 py-4 border-t border-gray-200 bg-gray-50">
-              <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
+            <div className="border-t border-slate-200 bg-slate-50 px-5 py-4">
+              <p className="text-sm leading-7 text-slate-700 md:text-base">{faq.answer}</p>
             </div>
           )}
         </div>

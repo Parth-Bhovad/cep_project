@@ -21,51 +21,47 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <span className="text-2xl font-bold text-blue-600">🇮🇳 CDSA</span>
-            <span className="hidden sm:inline text-sm text-gray-600">Digital Seva</span>
+    <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur-sm shadow-sm">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 items-center justify-between gap-4">
+          <Link href="/" className="flex flex-shrink-0 items-center gap-2">
+            <span className="text-2xl font-bold tracking-tight text-blue-600">🇮🇳 CDSA</span>
+            <span className="hidden text-sm font-medium text-slate-600 sm:inline">Digital Seva</span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden items-center gap-7 md:flex">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-blue-600 transition-colors text-sm font-medium"
+                className="text-sm font-medium text-slate-700 transition-colors duration-200 hover:text-blue-600"
               >
                 {link.label}
               </Link>
             ))}
           </div>
 
-          {/* Language Switcher + Mobile Menu Toggle */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <LanguageSwitcher />
-            {/* Mobile Menu Button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+              className="rounded-lg p-2 text-lg text-slate-700 transition-colors hover:bg-slate-100 md:hidden"
+              aria-label="Toggle menu"
             >
               {isOpen ? '✕' : '☰'}
             </button>
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden pb-4 border-t border-gray-200">
-            <div className="space-y-2">
+          <div className="border-t border-slate-200 pb-4 pt-3 md:hidden">
+            <div className="space-y-1">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-blue-600 rounded-lg transition-colors"
+                  className="block rounded-lg px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100 hover:text-blue-600"
                 >
                   {link.label}
                 </Link>

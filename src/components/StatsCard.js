@@ -1,10 +1,10 @@
 export default function StatsCard({ number, label }) {
   return (
-    <div className="bg-white rounded-xl p-8 shadow-md border border-gray-100 text-center">
-      <div className="text-4xl md:text-5xl font-bold text-blue-600 mb-2">
+    <div className="flex h-full flex-col justify-center rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm md:p-9">
+      <div className="mb-2 text-4xl font-bold tracking-tight text-blue-600 md:text-5xl">
         {number}
       </div>
-      <p className="text-gray-600 font-medium">{label}</p>
+      <p className="text-sm font-medium text-slate-600 md:text-base">{label}</p>
     </div>
   );
 }
