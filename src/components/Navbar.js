@@ -14,7 +14,7 @@ export default function Navbar() {
     { label: t('nav.services'), href: '/services' },
     { label: t('nav.faqs'), href: '/faqs' },
     { label: t('nav.digitalSafety'), href: '/digital-safety' },
-    { label: t('nav.survey'), href: '/survey' },
+    // { label: t('nav.survey'), href: '/survey' },
     { label: t('nav.about'), href: '/about' },
     { label: t('nav.feedback'), href: '/feedback' },
     { label: t('nav.contact'), href: '/contact' },
