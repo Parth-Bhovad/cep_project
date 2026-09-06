@@ -218,13 +218,10 @@
       },
       "projectFlowTitle": "Project Flow",
       "projectFlow": [
-        "Survey & Community Research",
         "Problem Identification",
         "Solution Design",
         "Website Development",
         "Testing & Refinement",
-        "Demonstration",
-        "Feedback Collection",
         "Analysis & Documentation"
       ]
     },
@@ -271,7 +268,7 @@
     "footer": {
       "quickLinks": "Quick Links",
       "governmentResources": "Government Resources",
-      "copyright": "© 2024 Citizen Digital Seva Assistant. Educational Project.",
+      "copyright": "© 2026 Citizen Digital Seva Assistant. Educational Project.",
       "educationalDisclaimer": "This website is developed solely for educational and demonstration purposes."
     }
   },
@@ -494,13 +491,10 @@
       },
       "projectFlowTitle": "परियोजना प्रवाह",
       "projectFlow": [
-        "सर्वेक्षण और सामुदायिक अनुसंधान",
         "समस्या की पहचान",
         "समाधान डिजाइन",
         "वेबसाइट विकास",
         "परीक्षण और परिशोधन",
-        "प्रदर्शन",
-        "प्रतिक्रिया संग्रह",
         "विश्लेषण और प्रलेखन"
       ]
     },
@@ -547,7 +541,7 @@
     "footer": {
       "quickLinks": "त्वरित लिंक",
       "governmentResources": "सरकारी संसाधन",
-      "copyright": "© 2024 नागरिक डिजिटल सेवा सहायक। शैक्षणिक परियोजना।",
+      "copyright": "© 2026 नागरिक डिजिटल सेवा सहायक। शैक्षणिक परियोजना।",
       "educationalDisclaimer": "यह वेबसाइट केवल शैक्षणिक और प्रदर्शन उद्देश्यों के लिए विकसित की गई है।"
     }
   },
@@ -770,13 +764,10 @@
       },
       "projectFlowTitle": "प्रकल्प प्रवाह",
       "projectFlow": [
-        "सर्वेक्षण आणि सामुदायिक संशोधन",
         "समस्या ओळख",
         "समाधान डिजाइन",
         "वेबसाइट विकास",
         "परीक्षण आणि परिशोधन",
-        "प्रदर्शन",
-        "प्रतिक्रिया संकलन",
         "विश्लेषण आणि दस्तऐवज"
       ]
     },
@@ -823,7 +814,7 @@
     "footer": {
       "quickLinks": "द्रुत लिंक",
       "governmentResources": "सरकारी संसाधन",
-      "copyright": "© 2024 नागरिक डिजिटल सेवा सहायक. शैक्षणिक प्रकल्प.",
+      "copyright": "© 2026 नागरिक डिजिटल सेवा सहायक. शैक्षणिक प्रकल्प.",
       "educationalDisclaimer": "ही वेबसाइट केवळ शैक्षणिक आणि प्रदर्शन उद्देशांसाठी विकसित केली गेली आहे."
     }
   }
