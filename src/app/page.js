@@ -74,7 +74,7 @@ export default function Home() {
             title={t('home.statsTitle')}
             description=""
           />
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {t('home.stats').map((stat, idx) => (
               <StatsCard
                 key={idx}
