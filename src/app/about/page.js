@@ -121,9 +121,7 @@ export default function AboutPage() {
                       <p className="text-sm font-semibold text-gray-900">{step}</p>
                     </div>
                   </div>
-                  {idx < about.projectFlow.length - 1 && (
-                    <div className="flex-1 h-1 bg-blue-300 mx-2 mt-6"></div>
-                  )}
+                  <div className="flex-1 h-1 bg-blue-300 mx-2 mt-6"></div>
                 </div>
               ))}
             </div>
@@ -137,9 +135,7 @@ export default function AboutPage() {
                   <div className="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
                     {idx + 1}
                   </div>
-                  {idx < about.projectFlow.length - 1 && (
-                    <div className="w-1 h-12 bg-blue-300 mx-auto mt-2"></div>
-                  )}
+                  <div className="w-1 h-12 bg-blue-300 mx-auto mt-2"></div>
                 </div>
                 <div className="bg-white rounded-lg p-4 shadow-md mb-4">
                   <p className="font-semibold text-gray-900">{step}</p>

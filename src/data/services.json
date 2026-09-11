@@ -309,5 +309,64 @@
     ],
     "officialWebsite": "https://parivahan.gov.in",
     "educationalDisclaimer": "This information is for educational purposes. For official details, visit your state's RTO website."
+  },
+  {
+    "id": 6,
+    "slug": "voter-id",
+    "title": "Voter ID",
+    "category": "Identity",
+    "icon": "🗳️",
+    "shortDescription": "Identity document for participating in elections",
+    "overview": "A Voter ID, also known as an Elector Photo Identity Card (EPIC), is issued by the Election Commission of India to eligible voters.",
+    "purpose": "A Voter ID serves as proof of identity for voting and helps citizens participate in elections in their constituency.",
+    "eligibility": "Indian citizens who are at least 18 years old on the qualifying date and ordinarily resident in an Indian constituency can register as voters.",
+    "requiredDocuments": [
+      "Proof of age (Birth certificate, Aadhaar, PAN card, passport, etc.)",
+      "Proof of residence (Aadhaar, utility bill, rental agreement, etc.)",
+      "Recent passport-sized photograph"
+    ],
+    "stepByStepGuide": [
+      "Visit the Election Commission of India's Voters' Services Portal",
+      "Create an account or log in with your mobile number",
+      "Choose the option to register as a new elector and complete Form 6",
+      "Enter your personal details and constituency information",
+      "Upload the required documents and photograph",
+      "Submit the application and save the reference number",
+      "Track the application status online and download your e-EPIC after approval"
+    ],
+    "tips": [
+      "Use the same name and date of birth shown on your supporting documents",
+      "Check your application status using the reference number",
+      "Use the voter search facility to confirm your name in the electoral roll",
+      "Report changes of address through the voter services portal",
+      "Never share your login details or OTP with anyone"
+    ],
+    "commonMistakes": [
+      "Submitting an application with incorrect personal details",
+      "Uploading unclear or incomplete documents",
+      "Registering more than once in the same or different constituency",
+      "Not updating your address after moving",
+      "Not checking whether your name appears in the electoral roll"
+    ],
+    "faqs": [
+      {
+        "question": "Who can apply for a Voter ID?",
+        "answer": "An Indian citizen who is at least 18 years old on the qualifying date and ordinarily resident in an Indian constituency can apply."
+      },
+      {
+        "question": "Can I apply for a Voter ID online?",
+        "answer": "Yes, you can register online through the Election Commission of India's Voters' Services Portal."
+      },
+      {
+        "question": "Can I download my Voter ID online?",
+        "answer": "After your registration is approved, you can download the electronic EPIC, or e-EPIC, from the voter services portal."
+      },
+      {
+        "question": "What should I do if I move to another address?",
+        "answer": "Submit an address-change or transfer request through the Voters' Services Portal so your electoral-roll entry can be updated."
+      }
+    ],
+    "officialWebsite": "https://voters.eci.gov.in",
+    "educationalDisclaimer": "This information is for educational purposes. For official details, visit the Election Commission of India's Voters' Services Portal."
   }
 ]
